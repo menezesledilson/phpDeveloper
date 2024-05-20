@@ -1,0 +1,37 @@
+projeto/
+│
+├── controller/
+│   ├── PacienteController.php
+│   ├── AcompanhanteController.php
+│   └── ...
+│
+├── model/
+│   ├── PacienteModel.php
+│   ├── AcompanhanteModel.php
+│   └── ...
+│
+├── view/
+│   ├── paciente/
+│   │   ├── index.php
+│   │   ├── criar.php
+│   │   ├── listar.php
+│   │   └── editar.php
+│   │
+│   ├── acompanhante/
+│   │   ├── index.php
+│   │   ├── criar.php
+│   │   ├── listar.php
+│   │   └── editar.php
+│   │
+│   └── templates/
+│       ├── header.php
+│       └── footer.php
+│
+└── public/
+    ├── css/
+    │   └── style.css
+    │
+    ├── js/
+    │   └── script.js
+    │
+    └── index.php
